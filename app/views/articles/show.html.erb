@@ -7,6 +7,6 @@
   <strong>Content: </strong>
   <%= @article.content %>
 </p>
-
+<%=link_to "삭제", article_path(@article), method: :delete %>>
 
 <%= link_to "Articles list", articles_path %>
