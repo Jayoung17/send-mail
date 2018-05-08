@@ -1,12 +1,13 @@
 <p>
-  <strong>Title: </strong>
-  <%= @article.title %>
+  <strong>주문자: </strong>
+  <%= @article.name %>
 </p>
 
 <p>
-  <strong>Content: </strong>
+  <strong>주문내용: </strong>
   <%= @article.content %>
 </p>
-<%=link_to "삭제", article_path(@article), method: :delete %>>
 
-<%= link_to "Articles list", articles_path %>
+<%=link_to "삭제", article_path(@article), method: :delete %>
+
+<%= link_to "주문 목록", articles_path %>

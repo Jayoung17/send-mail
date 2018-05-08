@@ -1,13 +1,15 @@
-<h1>New Article</h1>
+<h1>주문서</h1>
 
-<%= form_for :article, url: '/articles/' do |f| %>
+ <%= form_for :article, url: '/articles/' do |f| %>
+
   <p>
-    <%= f.label :title %><br>
-    <%= f.text_field :title %>
+     title 옆에 콤마 찍고 한글로 치면 이름 바꿀 수 있음 
+    <%= f.label :name, '주문자' %><br> 
+    <%= f.text_field :name %>
   </p>
 
   <p>
-    <%= f.label :content %><br>
+    <%= f.label :content, '주문내용' %><br>
     <%= f.text_field :content %>
   </p>
 

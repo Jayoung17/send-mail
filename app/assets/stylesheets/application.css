@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+#OrderHead {
+    text-align: center;
+    text-size: 20px;
+    font-style: italic;
+    color: red;
+    background-color: yellow;
+}
