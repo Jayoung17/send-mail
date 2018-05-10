@@ -17,7 +17,28 @@
 #OrderHead {
     text-align: center;
     text-size: 20px;
-    font-style: italic;
-    color: red;
-    background-color: yellow;
+    color: #FFFFFF;
+    background-color: #466995;
+    width: 100%;
+    z-index: 10;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+body {
+    
+    background-color: #C8DFE5;
+}
+
+table{
+    text-align: center;
+}
+
+#show{
+    display:flex;
+    justify-content:center;
+}
+
+#mail{
+    display:block;
 }
